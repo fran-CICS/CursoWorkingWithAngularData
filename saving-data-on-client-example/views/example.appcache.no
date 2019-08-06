@@ -1,0 +1,13 @@
+CACHE MANIFEST
+/views/favicon.ico
+/views/index.html
+
+NETWORK:
+../bower_components/offline/themes/offline-theme-default.css
+../bower_components/offline/themes/offline-language-english.css
+../bower_components/offline/themes/offline-language-english-indicator.css
+https://www.google-analytics.com/analytics.js
+
+FALLBACK:
+/views/ /offlineMessage.html
+

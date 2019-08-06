@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Offline Client Example</title>
+        <link rel="stylesheet" href="/bower_components/offline/themes/offline-theme-default.css">
+        <link rel="stylesheet" href="/bower_components/offline/themes/offline-language-english.css">
+        <link rel="stylesheet" href="/bower_components/offline/themes/offline-language-english-indicator.css">
+        <script src="/bower_components/offline/offline.min.js"></script>
+        <script src="/bower_components/offlinejs-simulate-ui/offline-simulate-ui.min.js"></script>
+        <script src="/bower_components/angular/angular.min.js"></script>
+        <script src="/bower_components/angular-cache/dist/angular-cache.js"></script>
+        <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="/bower_components/angular-route/angular-route.js"></script>
+        <script src="/scripts/app.js"></script>
+        <script src="/scripts/OfflineDomain.js"></script>
+    </head>
+    <body ng-app="classProjectApp">
+        <h1>Offline example <small>AngularJS</small></h1>
+        <form ng-controller="classProjectController as offlineDomain">
+            <div>
+                <label for="status">Status</label>
+                <input type="text" readonly="true" name="status" id="status" ng-model="offlineDomain.status"
+                    ng-click="offlineDomain.setDown()" ng-dblclick="offlineDomain.setUp()"></input>
+            </div>
+        </form>
+    </body>
+</html>
