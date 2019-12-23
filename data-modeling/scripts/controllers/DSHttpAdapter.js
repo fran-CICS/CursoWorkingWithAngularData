@@ -14,7 +14,9 @@ classProjectApp.factory('User',function(DS, DSHttpAdapter){
         });
     };
     User.setCount = function(params){
-        return DSHttpAdapter.POST('http://localhost:9000/setCount',{
+        var headers=new Headers();
+        headers.append('Access-Control-Allow-Origin', '*');
+        return DSHttpAdapter.POST('http://www.mocky.io/v2/5df7729432000011002dffa3',headers,{
             params: params || {}
         });
     };
@@ -26,8 +28,9 @@ classProjectApp.controller('DSHttpAdapterCtrl',function($scope, User){
         console.log("GET RESULT: ",result);
         console.log("GET RESULT: ",result.data);
     })
-    User.setCount('http://localhost:9000/setCount').then(function(result){
+    User.setCount().then(function(result){
         console.log("POST RESULT: ",result);
         console.log("POST RESULT: ",result.data);
+        console.log("POST RESULT Content: ",result.data.content);
     })
 });

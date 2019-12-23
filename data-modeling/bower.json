@@ -24,7 +24,9 @@
     "offlinejs-simulate-ui": "^0.1.2",
     "angular-cache": "^4.6.0",
     "angular-local-storage": "^0.7.1",
-    "js-data-angular": "^3.2.4"
+    "js-data-angular": "^3.2.4",
+    "js-data-localstorage": "^2.3.2",
+    "bootstrap": "^4.4.1"
   },
   "appPath": "app",
   "moduleName": "classProjectApp"

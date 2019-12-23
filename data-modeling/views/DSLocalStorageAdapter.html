@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="classProjectApp">
+    <head>
+        <meta charset="UTF-8">
+        <title>DSHttpAdapter Example</title>
+        <script src="../bower_components/angular/angular.min.js"></script>
+        <script src="../bower_components/angular-route/angular-route.min.js"></script>
+        <script src="/bower_components/js-data/dist/js-data.js"></script>
+        <script src="/bower_components/js-data-angular/dist/js-data-angular.js"></script>
+        <script src="/bower_components/js-data-localstorage/dist/js-data-localstorage.js"></script>
+        <script src="../node_modules/jquery/dist/jquery.js"></script>
+        <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="../scripts/controllers/DSLocalStorageAdapter.js"></script>
+        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css"/>
+    </head>
+    <body>
+        <form ng-controller="DSLocalStorageAdapterCtrl as DSLocalStorageAdapterCtrl"></form>
+        <h4>Advanced <small>AngularJS</small></h4>
+        <p>
+            Welcome to Advanced AngularJS!
+        </p>
+        <div class="row">
+            <pre ng-repeat="comment in comments">{{ comment.message }}</pre>
+        </div>
+                <div class="row">
+            <pre >{{ DSLocalStorageAdapterCtrl.comment1 }}</pre>
+        </div>
+    </body>
+</html>
