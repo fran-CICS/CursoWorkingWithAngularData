@@ -1,0 +1,19 @@
+{
+  "name": "exercise-handling-angular-js-data",
+  "version": "1.0.0",
+  "description": "Create an angular application using all topics learnt in the course",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "faromero",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.7.9",
+    "angular-cache": "^4.6.0",
+    "js-data": "^2.0.0",
+    "js-data-angular": "^3.2.4",
+    "js-data-localstorage": "^2.3.2",
+    "offline-js": "^0.7.19"
+  }
+}

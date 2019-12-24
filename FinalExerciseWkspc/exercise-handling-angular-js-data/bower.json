@@ -1,0 +1,18 @@
+{
+  "name": "exercise-handling-angular-js-data",
+  "description": "Create an angular application using all topics learnt in the course",
+  "main": "app.js",
+  "authors": [
+    "faromero"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/chamenwais/CursoWorkingWithAngularData",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

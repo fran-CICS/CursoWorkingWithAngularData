@@ -1,0 +1,13 @@
+CACHE MANIFEST
+favicon.ico
+index.html
+/node_modules/offline-js/themes/offline-theme-default.css
+/node_modules/offline-js/themes/offline-language-spanish.css
+/node_modules/offline-js/themes/offline-language-spanish-indicator.css
+https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js
+/node_modules/offline-js/offline.min.js
+/bower_components/offlinejs-simulate-ui/offline-simulate-ui.min.js
+/node_modules/angular-cache/dist/angular-cache.min.js
+
+NETWORK:
+/scrips/app.js
