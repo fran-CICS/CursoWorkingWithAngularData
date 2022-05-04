@@ -9,7 +9,7 @@
   "author": "faromero",
   "license": "ISC",
   "dependencies": {
-    "angular": "^1.7.9",
+    "angular": "^1.8.3",
     "angular-cache": "^4.6.0",
     "js-data": "^2.0.0",
     "js-data-angular": "^3.2.4",
